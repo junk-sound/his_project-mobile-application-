@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Hangout</title>
+    <!-- 모바일 디바이스를 위한 설정 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jQuery mobile에서 사용하는 css, javascript. 아래 3개의 리소스를 로드해야 함 -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+    <style>
+        a{text-decoration:none;}
+        .wrap{position:absolute;top:45px;bottom:45px;width:100%;overflow-y:scroll;}
+        .wrap ul li{padding:0px;border-bottom:1px solid #d7d7d7;background:-webkit-gradient(linear,left top,left bottom,color-stop(0.00,#fefefe),color-stop(1.00,#f1f1f1));}
+        .wrap ul li a{display:inline-block;width:100%;}
+        .wrap ul li span {color:#999;font-size:0.9em;}
+        .wrap ul li span strong{color:#000;font-size:1.1em;}
+        
+    </style>
+</head>
+<body>         
+<div data-role="page">
+    <div data-role="navbar">
+        <ul>
+            <li><a href="./hisp_1_hangout.html" rel="external">HANGOUT</a></li>
+            <li><a href="./hisp_1_eat.html" rel="external">EAT</a></li>
+            <li><a href="./hisp_1_study.html" rel="external" class="ui-btn-active">STUDY</a></li>
+            <li><a href="./hisp_1_campuslife.html" rel="external">CAMPUS LIFE</a></li>
+        </ul>
+    </div><!-- /navbar -->
+
+    <div data-role="content" class="wrap">
+        <ul data-role="listview">
+                  
+            <li data-icon="false">
+                    <a href="./hisp_3_study_LanguageExchange_Bulletin_present1.html"rel="external">
+                        <div><span>Hello? wanna language exchange with u</span></div> 
+                        <div><span>Shwan Killian | U.S.A | M | 2017-12-01 | 조회 (3)</span></div>
+                    </a> 
+            </li>
+            <li data-icon="false">
+                    <a href="./hisp_3_study_LanguageExchange_Bulletin_present2.html" rel="external">
+                        <div><span>Nice to meet u Im courtney from au</span></div> 
+                        <div><span>Courtney Webster | Au | F | 2017-12-02 | 조회 (8)</span></div> 
+                    </a> 
+            </li>
+            <li data-icon="false">
+                    <a href="./hisp_3_study_LanguageExchange_Bulletin_present3.html" rel="external">
+                        <div><span>안녕하세요? lets be friends!</span></div> 
+                        <div><span>김명회 | Kr | M | 2017-12-03 | 조회 (1)</span></div> 
+                    </a> 
+            </li>
+        </ul>
+    </div>
+    <div data-role="footer" data-position="fixed" data-theme="b">
+        <div data-role="navbar" >
+          <ul>
+              <li><a href="#" >글쓰기</a></li>
+          </ul>
+      </div> 
+</div><!-- /page -->
+ 
+</body>
+</html>
+

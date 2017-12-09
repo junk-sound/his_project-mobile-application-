@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+    <title>Home</title> 
+    <!-- 모바일 디바이스를 위한 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>    
+    <style>
+            #theList li a, #theList li.ui-li-divider {
+                text-align: center !important;
+            }
+    </style>
+    </head>
+<body>
+
+
+<div data-role="page">
+    <div data-role="content">
+        <ul id="theList" data-role="listview">
+            <li id="hangout" data-icon="false"><a href="./hisp_1_hangout.html" rel="external" data-ajax="false">HANGOUT</a></li>
+            <li id="eat" data-icon="false"><a href="./hisp_1_eat.html" rel="external" data-ajax="false">EAT</a></li>
+            <li data-icon="false"><a href="./hisp_1_study.html" rel="external" data-ajax="false">STUDY</a></li>
+            <li data-icon="false"><a href="./hisp_1_campuslife.html" rel="external" data-ajax="false">CAMPUS LIFE</a></li>
+        </ul>
+    </div><!-- /content -->
+</div><!-- /page -->
+</body>
+</html>
